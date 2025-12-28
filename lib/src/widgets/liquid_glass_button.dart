@@ -181,5 +181,19 @@ class _LiquidGlassButtonState extends State<LiquidGlassButton> {
   }
 }
 
-/// Button type enum
-enum LiquidGlassButtonType { primary, secondary, danger }
+/// Button type enum for [LiquidGlassButton].
+///
+/// Defines the visual style and behavior of the button:
+/// - [primary]: Main action button with focus color background
+/// - [secondary]: Secondary action button with base color background
+/// - [danger]: Destructive action button with error color background
+enum LiquidGlassButtonType {
+  /// Primary button style - used for main actions
+  primary,
+
+  /// Secondary button style - used for secondary actions
+  secondary,
+
+  /// Danger button style - used for destructive actions
+  danger,
+}

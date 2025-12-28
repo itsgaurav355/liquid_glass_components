@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'liquid_glass_components.dart';
+import 'package:liquid_glass_components/liquid_glass_components.dart';
 
 /// Example usage of Liquid Glass Components
 ///
@@ -199,10 +199,10 @@ class _ExamplePageState extends State<ExamplePage> {
                           value: 'choice2',
                           label: 'Choice 2',
                         ),
-                        // LiquidGlassChoiceOption(
-                        //   value: 'choice3',
-                        //   label: 'Choice 3',
-                        // ),
+                        LiquidGlassChoiceOption(
+                          value: 'choice3',
+                          label: 'Choice 3',
+                        ),
                       ],
                       value: _selectedChoice,
                       direction: Axis.horizontal,
@@ -237,10 +237,10 @@ class _ExamplePageState extends State<ExamplePage> {
                           value: 'multi2',
                           label: 'Multi 2',
                         ),
-                        // LiquidGlassMultiChoiceOption(
-                        //   value: 'multi3',
-                        //   label: 'Multi 3',
-                        // ),
+                        LiquidGlassMultiChoiceOption(
+                          value: 'multi3',
+                          label: 'Multi 3',
+                        ),
                       ],
                       values: _selectedMultiChoice,
                       direction: Axis.horizontal,

@@ -181,7 +181,18 @@ class _MultiChoiceItem<T> extends StatelessWidget {
   }
 }
 
-/// Option for multi-choice widget
+/// Option for [LiquidGlassMultiChoice] widget.
+///
+/// Represents a single selectable option in a multi-choice group.
+/// Each option has a value and a label to display.
+///
+/// Example:
+/// ```dart
+/// LiquidGlassMultiChoiceOption<String>(
+///   value: 'item1',
+///   label: 'Item 1',
+/// )
+/// ```
 class LiquidGlassMultiChoiceOption<T> {
   /// Value of the option
   final T value;

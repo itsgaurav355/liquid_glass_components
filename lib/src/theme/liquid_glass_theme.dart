@@ -65,7 +65,10 @@ class LiquidGlassTheme {
     this.gradientStops,
   });
 
-  /// Default light theme
+  /// Default light theme for glass morphism components.
+  ///
+  /// This theme is optimized for light backgrounds with white base colors
+  /// and dark text for good contrast.
   static const LiquidGlassTheme light = LiquidGlassTheme(
     baseColor: Colors.white,
     opacity: 0.25,
@@ -82,7 +85,10 @@ class LiquidGlassTheme {
     errorColor: Colors.red,
   );
 
-  /// Default dark theme
+  /// Default dark theme for glass morphism components.
+  ///
+  /// This theme is optimized for dark backgrounds with white base colors
+  /// and light text for good contrast.
   static const LiquidGlassTheme dark = LiquidGlassTheme(
     baseColor: Colors.white,
     opacity: 0.15,
@@ -99,7 +105,18 @@ class LiquidGlassTheme {
     errorColor: Colors.redAccent,
   );
 
-  /// Create a copy with modified properties
+  /// Create a copy of this theme with modified properties.
+  ///
+  /// Returns a new [LiquidGlassTheme] instance with the same properties
+  /// as this theme, except for the ones explicitly provided.
+  ///
+  /// Example:
+  /// ```dart
+  /// final customTheme = LiquidGlassTheme.light.copyWith(
+  ///   opacity: 0.3,
+  ///   borderRadius: 20.0,
+  /// );
+  /// ```
   LiquidGlassTheme copyWith({
     Color? baseColor,
     double? opacity,

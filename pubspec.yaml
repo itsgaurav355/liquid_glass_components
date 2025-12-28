@@ -2,7 +2,7 @@ name: liquid_glass_components
 description: "A Flutter package for beautiful glass morphism UI components with customizable form elements."
 homepage: https://github.com/itsgaurav355/liquid_glass_components
 repository: https://github.com/itsgaurav355/liquid_glass_components
-version: 1.0.0
+version: 1.0.1
 
 # Screenshots for pub.dev package page
 # These images will appear in a dedicated gallery on your pub.dev package page

@@ -2,7 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
-## [1.0.0] - 2024-12-XX
+## [1.0.1] - 2024-12-28
+
+### Fixed
+- Added complete dartdoc documentation for all public APIs
+- Created proper example directory structure
+- Enhanced documentation for enums and option classes
+
+## [1.0.1] - 2024-12-28
 
 ### Added
 - Initial release of Liquid Glass Components

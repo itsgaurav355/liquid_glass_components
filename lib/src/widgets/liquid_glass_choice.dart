@@ -182,7 +182,18 @@ class _ChoiceItem<T> extends StatelessWidget {
   }
 }
 
-/// Option for choice widget
+/// Option for [LiquidGlassChoice] widget.
+///
+/// Represents a single selectable option in a choice group.
+/// Each option has a value and a label to display.
+///
+/// Example:
+/// ```dart
+/// LiquidGlassChoiceOption<String>(
+///   value: 'option1',
+///   label: 'Option 1',
+/// )
+/// ```
 class LiquidGlassChoiceOption<T> {
   /// Value of the option
   final T value;

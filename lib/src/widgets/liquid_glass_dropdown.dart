@@ -2,7 +2,18 @@ import 'package:flutter/material.dart';
 import '../theme/liquid_glass_theme.dart';
 import '../utils/glass_effect.dart';
 
-/// Item for dropdown
+/// Item for [LiquidGlassDropdown] widget.
+///
+/// Represents a single selectable item in a dropdown menu.
+/// Each item has a value and a label to display.
+///
+/// Example:
+/// ```dart
+/// LiquidGlassDropdownItem<String>(
+///   value: 'us',
+///   label: 'United States',
+/// )
+/// ```
 class LiquidGlassDropdownItem<T> {
   /// Value of the item
   final T value;
