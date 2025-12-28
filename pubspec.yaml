@@ -4,6 +4,14 @@ homepage: https://github.com/itsgaurav355/liquid_glass_components
 repository: https://github.com/itsgaurav355/liquid_glass_components
 version: 1.0.0
 
+# Screenshots for pub.dev package page
+# These images will appear in a dedicated gallery on your pub.dev package page
+screenshots:
+  - description: 'Main components showcase with glass morphism effects'
+    path: screenshots/main.png
+  - description: 'All components in action demonstrating the full UI'
+    path: screenshots/components.png
+
 environment:
   sdk: ^3.10.4
 
