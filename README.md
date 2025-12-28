@@ -2,6 +2,18 @@
 
 A beautiful Flutter package for glass morphism UI components with customizable form elements. Create stunning glass liquid effects for your Flutter applications.
 
+## Screenshots
+
+<div align="center">
+  <img src="https://github.com/itsgaurav355/liquid_glass_components/blob/main/screenshots/main.png?raw=true" alt="Main Screenshot" width="300"/>
+  <p><em>Main components showcase</em></p>
+</div>
+
+<div align="center">
+  <img src="https://github.com/itsgaurav355/liquid_glass_components/blob/main/screenshots/components.png?raw=true" alt="Components Demo" width="300"/>
+  <p><em>All components in action</em></p>
+</div>
+
 ## Features
 
 ✨ **Glass Morphism Effects** - Beautiful frosted glass appearance with backdrop blur  
